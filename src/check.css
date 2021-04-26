@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+table {
+  padding: 2px;
+  margin: 20px;
+  font-size: 0.5cm;
+  font-family: "Noto Serif", serif;
+  position: absolute;
+  left: 11cm;
+  width: 40%;
+}
+table td {
+  border: 2px groove black;
+}
+input[name="radio"] {
+  font-size: 0.5cm;
+}
+table h3 {
+  border-bottom: 4px solid grey;
+  padding: 6px;
+}
+table ul {
+  list-style-type: none;
+}
+table ul li {
+  margin: 9px;
+}
+
+table label {
+  padding: 9px;
+}
+input[type="text"] {
+  padding: 4px;
+  font-size: 0.4cm;
+  margin-top: 6px;
+}
+table label {
+  margin-top: 1cm;
+}
+button {
+  margin: 10px;
+  width: 2cm;
+  height: 0.7cm;
+}
+.button {
+  background-color: red;
+  width: 5cm;
+  height: 1.3cm;
+  font-size: 0.5cm;
+  color: white;
+  font-family: "David Libre", serif;
+  padding: 15px;
+  font-weight: 500;
+  position: "relative";
+  left: 11cm;
+  margin-top: 9px;
+}
+.button:hover {
+  color: black;
+  border-bottom: 3px solid blue;
+}
+.pagemargin4 {
+  border-top-width: thick;
+  border-style: solid;
+  color: white;
+  margin-top: 700px;
+  margin-bottom: -40px;
+  padding: 0px;
+  background-color: black;
+}
+.head2 {
+  text-align: left;
+  font-size: 0.7cm;
+  background-color: #253594;
+  color: white;
+  font-family: "Noto Serif", serif;
+
+  padding: 26px;
+  border-bottom: 2px solid grey;
+}
+.my-per input {
+  margin-left: 1cm;
+  width: 300px;
+}
+.my-pro {
+  display: flex;
+  width: 100%;
+  height: 5cm;
+}
+.my-pro .grid-container {
+  display: grid;
+  margin-left: 1cm;
+  padding: 5px;
+  grid-template-rows: 1.5cm 0.6cm 0.8cm;
+}
+.my-pro .grid-item {
+  font-size: 0.5cm;
+  margin: 6px;
+  font-family: "David Libre", serif;
+}
+.my-img img {
+  width: 6cm;
+  height: 4cm;
+}
+.my-img,
+.my-det {
+  padding: 1px;
+}

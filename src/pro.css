@@ -1,0 +1,119 @@
+.acco {
+  height: 1.5cm;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px #888988;
+}
+.acco p {
+  margin-top: 10px;
+  margin-bottom: -8px;
+}
+.box {
+  box-sizing: border-box;
+  width: 40%;
+  height: 780px;
+  border: 2px solid #000000;
+  box-shadow: -5px -5px 8px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  border-radius: 7px;
+  background-color: wheat;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.box .up {
+  position: relative;
+  left: -2.5cm;
+  top: 0.4cm;
+  background-color: red;
+  border: 2px solid black;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+}
+.box h3 {
+  margin-top: 0.5cm;
+  text-align: start;
+  margin-left: 1cm;
+}
+.image {
+  margin-top: 0.4cm;
+  margin-left: 50px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 13px;
+  border: 5px solid #0082e6;
+  padding: 3px;
+  background-color: white;
+}
+.box input[type="text"],
+input[type="email"] {
+  box-sizing: border-box;
+  background: none;
+  color: black;
+  margin-bottom: 5px;
+  padding: 4px;
+  width: 240px;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  transition: 0.2s ease;
+}
+.box .al {
+  position: relative;
+  left: -3cm;
+}
+.box .ak {
+  position: relative;
+  left: 2cm;
+}
+.box #ol {
+  position: relative;
+  left: 1cm;
+}
+.box input[type="text"] {
+  margin: 12px;
+  margin-top: 25px;
+}
+.box input[type="text"]:focus,
+input[type="email"]:focus {
+  border-bottom: 2px solid Navy;
+  border-bottom-right-radius: 15px;
+  color: Navy;
+  transition: 0.1s ease;
+}
+.box button {
+  margin: 40px;
+  background-color: red;
+  margin-top: 15px;
+  border: 2px solid;
+  color: lightcyan;
+  height: 35px;
+  width: 5cm;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.box button:hover {
+  background-color: red;
+  transform: scale(1.02);
+}
+.box input[type="file"] {
+  display: none;
+}
+.gk {
+  width: 4cm;
+  background-color: red;
+  color: white;
+  font-size: 0.45cm;
+}
+.pagemargin5 {
+  border-top-width: thick;
+  border-style: solid;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  padding: 0px;
+  background-color: black;
+}
